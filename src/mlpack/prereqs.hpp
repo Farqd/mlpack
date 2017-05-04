@@ -33,7 +33,6 @@
 #include <iostream>
 #include <stdexcept>
 #include <tuple>
-#include <queue>
 #include <utility>
 
 // But if it's not defined, we'll do it.
