@@ -27,7 +27,6 @@
 #include <cfloat>
 #include <cstdint>
 #include <stdexcept>
-#include <tuple>
 #include <utility>
 
 // But if it's not defined, we'll do it.

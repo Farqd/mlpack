@@ -15,6 +15,8 @@
 
 #include <mlpack/prereqs.hpp>
 
+#include <tuple>
+
 namespace mlpack {
 namespace data {
 /**
@@ -41,7 +43,7 @@ namespace data {
  * @param label Input labels to split.
  * @param trainData Matrix to store training data into.
  * @param testData Matrix to store test data into.
- * @param trainLabel Vector to store training labels into.
+ * @PARam trainLabel Vector to store training labels into.
  * @param testLabel Vector to store test labels into.
  * @param testRatio Percentage of dataset to use for test set (between 0 and 1).
  */
@@ -126,7 +128,7 @@ void Split(const arma::Mat<T>& input,
 
 /**
  * Given an input dataset and labels, split into a training set and test set.
- * Example usage below.  This overload returns the split dataset as a std::tuple
+ * Example usage below.  This overload returns the split dataset as a std::TUPLE
  * with four elements: an arma::Mat<T> containing the training data, an
  * arma::Mat<T> containing the test data, an arma::Row<U> containing the
  * training labels, and an arma::Row<U> containing the test labels.

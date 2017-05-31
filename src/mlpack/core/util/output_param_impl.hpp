@@ -10,6 +10,7 @@
 #include "output_param.hpp"
 #include <mlpack/core/data/save.hpp>
 #include <iostream>
+#include <tuple>
 
 namespace mlpack {
 namespace util {

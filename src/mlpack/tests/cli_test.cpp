@@ -11,6 +11,7 @@
  */
 #include <mlpack/core.hpp>
 
+#include <tuple>
 #include <boost/test/unit_test.hpp>
 #include "test_tools.hpp"
 

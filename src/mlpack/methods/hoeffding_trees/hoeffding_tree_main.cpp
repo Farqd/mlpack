@@ -16,6 +16,7 @@
 #include <mlpack/methods/hoeffding_trees/information_gain.hpp>
 #include <mlpack/methods/hoeffding_trees/hoeffding_tree_model.hpp>
 #include <queue>
+#include <tuple>
 
 using namespace std;
 using namespace mlpack;

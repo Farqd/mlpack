@@ -15,6 +15,7 @@
 #include "octree.hpp"
 #include <mlpack/core/tree/perform_split.hpp>
 #include <stack>
+#include <tuple>
 
 namespace mlpack {
 namespace tree {

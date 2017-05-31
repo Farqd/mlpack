@@ -11,6 +11,7 @@
 #include <mlpack/prereqs.hpp>
 
 #include <boost/any.hpp>
+#include <tuple>
 
 /**
  * The TYPENAME macro is used internally to convert a type into a string.

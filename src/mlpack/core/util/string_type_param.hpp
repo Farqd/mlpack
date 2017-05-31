@@ -9,6 +9,7 @@
 #define MLPACK_CORE_UTIL_STRING_TYPE_PARAM_HPP
 
 #include <mlpack/prereqs.hpp>
+#include <tuple>
 
 namespace mlpack {
 namespace util {

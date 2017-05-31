@@ -8,6 +8,7 @@
 #define MLPACK_CORE_UTIL_DEFAULT_PARAM_HPP
 
 #include <mlpack/prereqs.hpp>
+#include <tuple>
 
 namespace mlpack {
 namespace util {

@@ -16,6 +16,7 @@
 #define MLPACK_METHODS_RL_ENVIRONMENT_CART_POLE_HPP
 
 #include <mlpack/prereqs.hpp>
+#include <tuple>
 
 namespace mlpack {
 namespace rl {

@@ -9,6 +9,8 @@
 #define MLPACK_CORE_UTIL_PRINT_PARAM_HPP
 
 #include <mlpack/prereqs.hpp>
+#include <tuple>
+
 #include "param_data.hpp"
 
 namespace mlpack {
