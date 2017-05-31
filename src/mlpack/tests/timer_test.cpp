@@ -18,7 +18,6 @@
   #include <windows.h>
 #endif
 
-#include <mlpack/core.hpp>
 
 #include <boost/test/unit_test.hpp>
 #include "test_tools.hpp"

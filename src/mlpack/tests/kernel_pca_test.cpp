@@ -9,7 +9,6 @@
  * 3-clause BSD license along with mlpack.  If not, see
  * http://www.opensource.org/licenses/BSD-3-Clause for more information.
  */
-#include <mlpack/core.hpp>
 #include <mlpack/core/kernels/gaussian_kernel.hpp>
 #include <mlpack/methods/kernel_pca/kernel_rules/nystroem_method.hpp>
 #include <mlpack/methods/kernel_pca/kernel_pca.hpp>

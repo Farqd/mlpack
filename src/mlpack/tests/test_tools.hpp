@@ -12,8 +12,12 @@
 #ifndef MLPACK_TESTS_TEST_TOOLS_HPP
 #define MLPACK_TESTS_TEST_TOOLS_HPP
 
-#include <mlpack/core.hpp>
 #include <boost/version.hpp>
+#include <mlpack/prereqs.hpp>
+
+#include <mlpack/core/data/load.hpp>
+#include <mlpack/core/dists/gaussian_distribution.hpp>
+#include <mlpack/core/math/random.hpp>
 
 // Require the approximation L to be within a relative error of E respect to the
 // actual value R.

@@ -8,7 +8,6 @@
  * http://www.opensource.org/licenses/BSD-3-Clause for more information.
  */
 
-#include <mlpack/core.hpp>
 
 #include <mlpack/methods/mean_shift/mean_shift.hpp>
 

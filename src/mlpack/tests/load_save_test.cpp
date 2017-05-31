@@ -11,8 +11,12 @@
  */
 #include <sstream>
 
-#include <mlpack/core.hpp>
 #include <mlpack/core/data/load_arff.hpp>
+
+#include <mlpack/core/data/load.hpp>
+#include <mlpack/core/data/save.hpp>
+#include <mlpack/core/data/normalize_labels.hpp>
+#include <mlpack/core/math/random.hpp>
 
 #include <boost/test/unit_test.hpp>
 #include "test_tools.hpp"

@@ -13,8 +13,6 @@
 #include <boost/test/unit_test.hpp>
 #include "test_tools.hpp"
 
-#include <mlpack/core.hpp>
-
 #include <mlpack/core/optimizers/rmsprop/rmsprop.hpp>
 #include <mlpack/methods/ann/layer/layer.hpp>
 #include <mlpack/methods/ann/ffn.hpp>

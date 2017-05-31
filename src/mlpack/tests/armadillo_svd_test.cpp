@@ -1,4 +1,3 @@
-#include <mlpack/core.hpp>
 #include <mlpack/methods/cf/svd_wrapper.hpp>
 
 #include <boost/test/unit_test.hpp>

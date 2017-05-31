@@ -13,6 +13,7 @@
 #define MLPACK_METHODS_RL_POLICY_GREEDY_POLICY_HPP
 
 #include <mlpack/prereqs.hpp>
+#include <mlpack/core/math/random.hpp>
 
 namespace mlpack {
 namespace rl {

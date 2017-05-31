@@ -1,4 +1,3 @@
-#include <mlpack/core.hpp>
 #include <mlpack/methods/amf/amf.hpp>
 #include <mlpack/methods/amf/update_rules/svd_incomplete_incremental_learning.hpp>
 #include <mlpack/methods/amf/update_rules/svd_complete_incremental_learning.hpp>

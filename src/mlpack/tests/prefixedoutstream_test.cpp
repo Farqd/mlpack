@@ -12,7 +12,6 @@
 #include <iostream>
 #include <sstream>
 
-#include <mlpack/core.hpp>
 
 #include <boost/test/unit_test.hpp>
 #include "test_tools.hpp"

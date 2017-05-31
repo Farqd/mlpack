@@ -10,8 +10,8 @@
  * http://www.opensource.org/licenses/BSD-3-Clause for more information.
  */
 
-#include <mlpack/core.hpp>
 #include <mlpack/methods/randomized_svd/randomized_svd.hpp>
+#include <mlpack/core/math/lin_alg.hpp>
 
 #include <boost/test/unit_test.hpp>
 #include "test_tools.hpp"

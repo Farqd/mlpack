@@ -9,20 +9,21 @@
  * 3-clause BSD license along with mlpack.  If not, see
  * http://www.opensource.org/licenses/BSD-3-Clause for more information.
  */
-#include <mlpack/core.hpp>
 
 #include <boost/test/unit_test.hpp>
 #include "test_tools.hpp"
 #include "serialization.hpp"
 
+#include <mlpack/core.hpp>
+#include <mlpack/core/dists/gaussian_distribution.hpp>
 #include <mlpack/core/dists/regression_distribution.hpp>
-#include <mlpack/core/tree/ballbound.hpp>
-#include <mlpack/core/tree/hrectbound.hpp>
 #include <mlpack/core/metrics/mahalanobis_distance.hpp>
+#include <mlpack/core/tree/ballbound.hpp>
 #include <mlpack/core/tree/binary_space_tree.hpp>
-#include <mlpack/methods/hoeffding_trees/hoeffding_tree.hpp>
 #include <mlpack/core/tree/cover_tree.hpp>
+#include <mlpack/core/tree/hrectbound.hpp>
 #include <mlpack/core/tree/rectangle_tree.hpp>
+#include <mlpack/methods/hoeffding_trees/hoeffding_tree.hpp>
 
 #include <mlpack/methods/perceptron/perceptron.hpp>
 #include <mlpack/methods/logistic_regression/logistic_regression.hpp>
