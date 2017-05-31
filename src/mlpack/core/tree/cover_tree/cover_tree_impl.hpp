@@ -17,6 +17,7 @@
 
 #include <queue>
 #include <string>
+#include <cstring>
 
 namespace mlpack {
 namespace tree {
