@@ -15,7 +15,6 @@
 #include <boost/spirit/include/qi.hpp>
 #include <boost/algorithm/string/trim.hpp>
 
-#include <mlpack/core.hpp>
 #include <mlpack/core/util/log.hpp>
 
 #include <set>

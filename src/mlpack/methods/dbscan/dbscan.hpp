@@ -13,7 +13,6 @@
 #ifndef MLPACK_METHODS_DBSCAN_DBSCAN_HPP
 #define MLPACK_METHODS_DBSCAN_DBSCAN_HPP
 
-#include <mlpack/core.hpp>
 #include <mlpack/methods/range_search/range_search.hpp>
 #include "random_point_selection.hpp"
 #include <boost/dynamic_bitset.hpp>

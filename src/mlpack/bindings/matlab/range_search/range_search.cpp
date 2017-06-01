@@ -6,7 +6,6 @@
  */
 #include "mex.h"
 
-#include <mlpack/core.hpp>
 #include <mlpack/core/metrics/lmetric.hpp>
 #include <mlpack/methods/range_search/range_search.hpp>
 
